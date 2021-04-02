@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/infp"
+    tools:context=".Fragments.Result.InfpResult">
+
+    <TextView
+        android:id="@+id/infp_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="「 INFP 」"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infp_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="망상에 사는 철벽 금사빠"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infp_tv1" />
+
+
+    <ImageView
+        android:id="@+id/infp_iv"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/edge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infp_tv2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:textColor="@color/black"
+        android:text="연애 시작과 동시에 앞으로\n행복할 일, 싸울 일, 우울할 일을\n
+미리 상상하는 스타일이에요.\n상대의 감정에 잘 공감해 주지만\n
+내 감정은 잘 표현하지 않아서\n막상 좋아하는 사람이 다가와도\n철벽칠 때가 있어요.\n
+하지만 속으로는 김칫국 드링킹 후\n데이트 풀코스 계획 완료.\n
+연애를 시작하면 애정표현도 스킨십도\n적극적으로
+하는 편이에요.\n나만의 철두철미한 연애 기준\n5조5억 개 중 5억 개 정도만 타협하면\n
+더 빠르게 인연이 다가올지도 몰라요"
+        android:textAlignment="center"
+        android:textSize="19dp"
+        android:layout_marginTop="85dp"
+        app:layout_constraintTop_toBottomOf="@+id/infp_tv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

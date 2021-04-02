@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/enfp"
+    tools:context=".Fragments.Result.EnfpResult">
+
+    <TextView
+        android:id="@+id/enfp_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="「 ENFP 」"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/enfp_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="사랑을 쫓는 피터팬"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enfp_tv1" />
+
+
+    <ImageView
+        android:id="@+id/enfp_iv"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/edge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enfp_tv2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="자유를 사랑하는 나에게\n구속하는 연애란
+있을 수 없죠.\n어떤 옷, 어떤 헤어스타일이든\n간섭 제로, 취향 존중.\n연인이 갑자기 일을
+그만두고\n여행을 떠나겠다고 하면\n묻지도 따지지도 않고\n응원해 줄 스타일이에요.\n
+한 번 빠지면 화끈하게\n올인하기 때문에 헌신적인 연애를\n할 가능성이 높아요.\n어느 정도의
+보답을 원하기 때문에\n너무 받기만 하면 혼자 꿍해서\n토라질 때도 있어요."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintTop_toBottomOf="@+id/enfp_tv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

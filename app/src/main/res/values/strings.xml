@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LoveTest</string>
+    <string name="main_title">Let’s find out\nyour love type!</string>
+    <string name="question">There were favorite flowers\nin the flower base.\nAs time goes, the flowers\nhave all withered.\nWhat are you going to do with that?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="firebase_web_client_id">639486922262-geimfooke50aclqfbvnjvtpdnfrc1nnj.apps.googleusercontent.com</string>
+    <item name="photoView" type="id" />
+</resources>

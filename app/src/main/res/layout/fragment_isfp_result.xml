@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/isfp"
+    tools:context=".Fragments.Result.IsfpResult">
+
+    <TextView
+        android:id="@+id/isfp_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="「 ISFP 」"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/isfp_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="귀차니즘 만렙 프로긍정러"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isfp_tv1" />
+
+
+    <ImageView
+        android:id="@+id/isfp_iv"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/edge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isfp_tv2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:textColor="@color/black"
+        android:text="성선설은 나를 보고 나온 말 아닐까?\n감정이입 잘하고 선한
+성격 덕에\n연애에서도 빛과 소금 그 자체에요.\n공감력 200%로 상대방의 모든 것을\n존중해주고 맞춰 주며 긍정에너지를\n마구마구 전파해요.\n하지만 가끔은 갈등이나
+논쟁이 그저\n귀찮아서 넘어갈 때도 있다는 사실!\n거절을 잘 못해서 부탁도 하소연도\n
+잘 들어주지만 내 안에 잠재된\n세미관종력을 잘 발휘해서\n조금 더 내 감정과 생각을\n
+솔직하게 말해도 좋아요."
+        android:textAlignment="center"
+        android:textSize="19dp"
+        android:layout_marginTop="95dp"
+        app:layout_constraintTop_toBottomOf="@+id/isfp_tv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

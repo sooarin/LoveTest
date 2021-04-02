@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "639486922262",
+    "project_id": "lovetest-733ca",
+    "storage_bucket": "lovetest-733ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639486922262:android:bb76821491c27d8c492f37",
+        "android_client_info": {
+          "package_name": "com.example.psycology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639486922262-geimfooke50aclqfbvnjvtpdnfrc1nnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKT--ULf_vVyOEBKL6fEdnIjcSClSvaTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639486922262-geimfooke50aclqfbvnjvtpdnfrc1nnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

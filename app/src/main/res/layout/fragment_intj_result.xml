@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/intj"
+    tools:context=".Fragments.Result.IntjResult">
+
+    <TextView
+        android:id="@+id/intj_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="「 INTJ 」"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/intj_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="고집만렙 연애분석가"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intj_tv1" />
+
+
+    <ImageView
+        android:id="@+id/intj_iv"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/edge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intj_tv2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:textColor="@color/black"
+        android:text="호불호 강하고 주관이 뚜렷해서\n가치관이나 관심사가 맞지
+않으면\n관심이 1도 없어요.\n하지만 전형적인 츤데레 스타일이라\n겉보다 속이 훨씬
+따듯해요.\n애정표현은 조금 서툴러도\n이 사람이다 싶음 철저하게 분석하고\n계획해서
+썸에서 연애까지\n빠르게 추진해요.\n덕분에 연애 성공률도 높은 편.\n아이디어와 상상력이
+넘쳐서\n남들이 하지 않는 색다른 데이트를\n창조하고 즐기는 경우가 많아요."
+        android:textAlignment="center"
+        android:textSize="19dp"
+        android:layout_marginTop="95dp"
+        app:layout_constraintTop_toBottomOf="@+id/intj_tv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

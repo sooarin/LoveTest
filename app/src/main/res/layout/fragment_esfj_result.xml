@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/esfj"
+    tools:context=".Fragments.Result.EsfjResult">
+
+    <TextView
+        android:id="@+id/esfj_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif-black"
+        android:text="「 ESFJ 」"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/esfj_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="눈치력 만렙 연애집사"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/esfj_tv1" />
+
+
+    <ImageView
+        android:id="@+id/esfj_iv"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/edge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/esfj_tv2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:textColor="@color/black"
+        android:text="상대의 감정을 잘 읽고 맞춰줘서\n연애할 때 갈등이 적어요.\n
+오지랖 넓고 주변을 잘 챙겨서\n누구든 당신의 곁에서\n편안함을 느낄 거예요.\n
+하지만 사실은 호불호가 명확해서\n연인의 행동에 간섭하고 싶지만,\n갈등을 만들고
+싶지 않아서\n불만이 있어도 쌓아두는 편이네요.\n그러나 갈등은 피할수록 깊어지는 법.\n
+더 솔직하고 편안한 연애를 위해,\n어렵더라도 고민을 바로\n이야기해 보는 건 어떨까요?"
+        android:textAlignment="center"
+        android:textSize="19dp"
+        android:layout_marginTop="95dp"
+        app:layout_constraintTop_toBottomOf="@+id/esfj_tv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

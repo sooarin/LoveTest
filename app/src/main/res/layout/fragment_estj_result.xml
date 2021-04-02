@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/estj"
+    tools:context=".Fragments.Result.EstjResult">
+
+
+    <TextView
+        android:id="@+id/estj_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="「 ESTJ 」"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/estj_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="밀당 1도 없는 갓선비"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/estj_tv1" />
+
+
+    <ImageView
+        android:id="@+id/estj_iv"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/edge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/estj_tv2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:textColor="@color/black"
+        android:text="밀당이라곤 일절 모르는\n솔직담백 스타일이에요.\n
+꼿꼿하고 체계적인 성향 덕분에\n마치 21세기를 사는 선비 같아요.\n
+당신의 가식 없고 쿨한 매력에\n많은 이성이 호감을 느낄 거예요.\n
+책임감이 강해 약속을 꼭 지켜서\n연인에게 금방 신뢰를 얻는 편이에요.\n
+연애 초반엔 감정 표현이 서툴러도\n시간이 지날수록 좋아질 거예요.\n
+다만 명확한 호불호와 냉철함 때문에\n연인에게 상처를 줄 수 있어요.\n
+'역지사지'를 마음에 품고\n상대의 마음을 헤아려 보세요."
+        android:textAlignment="center"
+        android:textSize="19dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toBottomOf="@+id/estj_tv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

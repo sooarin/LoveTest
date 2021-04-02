@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/question_back"
+    tools:context=".Fragments.Question.JPFragment3">
+
+    <TextView
+        android:id="@+id/jpq3_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/mapo_golden_pier"
+        android:text="Q12.\n커플 해외여행 계획을\n짜게 된\n나는"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:background="#00ff0000"
+        android:id="@+id/jpq3_ib1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/selection"
+        android:theme="@style/AppTheme.ButtonRipple"
+        android:foreground="?selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jpq3_tv3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="할 거면 제대로!\n일별로 세부 일정을 정리한다"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_marginTop="166dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/mapo_golden_pier"
+        app:layout_constraintTop_toBottomOf="@+id/jpq3_tv3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <ImageButton
+        android:background="#00ff0000"
+        android:id="@+id/jpq3_ib2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/selection"
+        android:theme="@style/AppTheme.ButtonRipple"
+        android:foreground="?selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jpq3_ib1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비행기 표만 끊어두고 계획의\n80%가 끝났다고 생각한다"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_marginTop="77dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/mapo_golden_pier"
+        app:layout_constraintTop_toBottomOf="@+id/jpq3_ib1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/EIFragment1"
+        android:name="com.example.psycology.Fragments.Question.EIFragment1"
+        android:label="fragment_eiquestion1"
+        tools:layout="@layout/fragment_eiquestion1" >
+        <action
+            android:id="@+id/action_EIFragment1_to_EIFragment22"
+            app:destination="@id/EIFragment22" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.psycology.Fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_EIFragment1"
+            app:destination="@id/EIFragment1"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_open_exit"
+            app:popEnterAnim="@anim/fragment_close_enter"
+            app:popExitAnim="@anim/fragment_close_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/EIFragment22"
+        android:name="com.example.psycology.Fragments.Question.EIFragment2"
+        android:label="fragment_eiquestion2"
+        tools:layout="@layout/fragment_eiquestion2" >
+        <action
+            android:id="@+id/action_EIFragment22_to_EIFragment3"
+            app:destination="@id/EIFragment3"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/EIFragment3"
+        android:name="com.example.psycology.Fragments.Question.EIFragment3"
+        android:label="fragment_eiquestion3"
+        tools:layout="@layout/fragment_eiquestion3" >
+        <action
+            android:id="@+id/action_EIFragment3_to_NSFragment1"
+            app:destination="@id/NSFragment1"
+             />
+    </fragment>
+    <fragment
+        android:id="@+id/NSFragment1"
+        android:name="com.example.psycology.Fragments.Question.NSFragment1"
+        android:label="fragment_nsquestion1"
+        tools:layout="@layout/fragment_nsquestion1" >
+        <action
+            android:id="@+id/action_NSFragment1_to_NSFragment22"
+            app:destination="@id/NSFragment2"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/NSFragment2"
+        android:name="com.example.psycology.Fragments.Question.NSFragment2"
+        android:label="fragment_nsquestion2"
+        tools:layout="@layout/fragment_nsquestion2" >
+        <action
+            android:id="@+id/action_NSFragment2_to_NSFragment3"
+            app:destination="@id/NSFragment3"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/NSFragment3"
+        android:name="com.example.psycology.Fragments.Question.NSFragment3"
+        android:label="fragment_nsquestion3"
+        tools:layout="@layout/fragment_nsquestion3" >
+        <action
+            android:id="@+id/action_NSFragment3_to_TFFragment1"
+            app:destination="@id/TFFragment1"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/TFFragment1"
+        android:name="com.example.psycology.Fragments.Question.TFFragment1"
+        android:label="fragment_tfquestion1"
+        tools:layout="@layout/fragment_tfquestion1" >
+        <action
+            android:id="@+id/action_TFFragment1_to_TFFragment2"
+            app:destination="@id/TFFragment2"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/TFFragment2"
+        android:name="com.example.psycology.Fragments.Question.TFFragment2"
+        android:label="fragment_tfquestion2"
+        tools:layout="@layout/fragment_tfquestion2" >
+        <action
+            android:id="@+id/action_TFFragment2_to_TFFragment3"
+            app:destination="@id/TFFragment3"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/TFFragment3"
+        android:name="com.example.psycology.Fragments.Question.TFFragment3"
+        android:label="fragment_tfquestion3"
+        tools:layout="@layout/fragment_tfquestion3" >
+        <action
+            android:id="@+id/action_TFFragment3_to_JPFragment1"
+            app:destination="@id/JPFragment1"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/JPFragment1"
+        android:name="com.example.psycology.Fragments.Question.JPFragment1"
+        android:label="fragment_jpquestion1"
+        tools:layout="@layout/fragment_jpquestion1" >
+        <action
+            android:id="@+id/action_JPFragment1_to_JPFragment2"
+            app:destination="@id/JPFragment2"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/JPFragment2"
+        android:name="com.example.psycology.Fragments.Question.JPFragment2"
+        android:label="fragment_jpquestion2"
+        tools:layout="@layout/fragment_jpquestion2" >
+        <action
+            android:id="@+id/action_JPFragment2_to_JPFragment3"
+            app:destination="@id/JPFragment3"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/JPFragment3"
+        android:name="com.example.psycology.Fragments.Question.JPFragment3"
+        android:label="fragment_jpfragment3"
+        tools:layout="@layout/fragment_jpfragment3" >
+        <action
+            android:id="@+id/action_JPFragment3_to_entjResult"
+            app:destination="@id/entjResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_entpResult"
+            app:destination="@id/entpResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_esfjResult"
+            app:destination="@id/esfjResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_esfpResult"
+            app:destination="@id/esfpResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_estjResult"
+            app:destination="@id/estjResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_estpResult"
+            app:destination="@id/estpResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_infjResult"
+            app:destination="@id/infjResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_infpResult"
+            app:destination="@id/infpResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_intjResult"
+            app:destination="@id/intjResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_intpResult"
+            app:destination="@id/intpResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_isfjResult"
+            app:destination="@id/isfjResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_isfpResult"
+            app:destination="@id/isfpResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_istjResult"
+            app:destination="@id/istjResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_istpResult"
+            app:destination="@id/istpResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_enfpResult"
+            app:destination="@id/enfpResult" />
+        <action
+            android:id="@+id/action_JPFragment3_to_enfjResult"
+            app:destination="@id/enfjResult" />
+    </fragment>
+    <fragment
+        android:id="@+id/entjResult"
+        android:name="com.example.psycology.Fragments.Result.EntjResult"
+        android:label="fragment_entj_result"
+        tools:layout="@layout/fragment_entj_result" />
+    <fragment
+        android:id="@+id/entpResult"
+        android:name="com.example.psycology.Fragments.Result.EntpResult"
+        android:label="fragment_entp_result"
+        tools:layout="@layout/fragment_entp_result" />
+    <fragment
+        android:id="@+id/esfjResult"
+        android:name="com.example.psycology.Fragments.Result.EsfjResult"
+        android:label="fragment_esfj_result"
+        tools:layout="@layout/fragment_esfj_result" />
+    <fragment
+        android:id="@+id/esfpResult"
+        android:name="com.example.psycology.Fragments.Result.EsfpResult"
+        android:label="fragment_esfp_result"
+        tools:layout="@layout/fragment_esfp_result" />
+    <fragment
+        android:id="@+id/estjResult"
+        android:name="com.example.psycology.Fragments.Result.EstjResult"
+        android:label="fragment_estj_result"
+        tools:layout="@layout/fragment_estj_result" />
+    <fragment
+        android:id="@+id/estpResult"
+        android:name="com.example.psycology.Fragments.Result.EstpResult"
+        android:label="fragment_estp_result"
+        tools:layout="@layout/fragment_estp_result" />
+    <fragment
+        android:id="@+id/infjResult"
+        android:name="com.example.psycology.Fragments.Result.InfjResult"
+        android:label="fragment_infj_result"
+        tools:layout="@layout/fragment_infj_result" />
+    <fragment
+        android:id="@+id/infpResult"
+        android:name="com.example.psycology.Fragments.Result.InfpResult"
+        android:label="fragment_infp_result"
+        tools:layout="@layout/fragment_infp_result" />
+    <fragment
+        android:id="@+id/intjResult"
+        android:name="com.example.psycology.Fragments.Result.IntjResult"
+        android:label="fragment_intj_result"
+        tools:layout="@layout/fragment_intj_result" />
+    <fragment
+        android:id="@+id/intpResult"
+        android:name="com.example.psycology.Fragments.Result.IntpResult"
+        android:label="fragment_intp_result"
+        tools:layout="@layout/fragment_intp_result" />
+    <fragment
+        android:id="@+id/isfjResult"
+        android:name="com.example.psycology.Fragments.Result.IsfjResult"
+        android:label="fragment_isfj_result"
+        tools:layout="@layout/fragment_isfj_result" />
+    <fragment
+        android:id="@+id/isfpResult"
+        android:name="com.example.psycology.Fragments.Result.IsfpResult"
+        android:label="fragment_isfp_result"
+        tools:layout="@layout/fragment_isfp_result" />
+    <fragment
+        android:id="@+id/istjResult"
+        android:name="com.example.psycology.Fragments.Result.IstjResult"
+        android:label="fragment_istj_result"
+        tools:layout="@layout/fragment_istj_result" />
+    <fragment
+        android:id="@+id/istpResult"
+        android:name="com.example.psycology.Fragments.Result.IstpResult"
+        android:label="fragment_istp_result"
+        tools:layout="@layout/fragment_istp_result" />
+    <fragment
+        android:id="@+id/enfpResult"
+        android:name="com.example.psycology.Fragments.Result.EnfpResult"
+        android:label="fragment_enfp"
+        tools:layout="@layout/fragment_enfp_result" />
+    <fragment
+        android:id="@+id/enfjResult"
+        android:name="com.example.psycology.Fragments.Result.EnfjResult"
+        android:label="fragment_enfj_result"
+        tools:layout="@layout/fragment_enfj_result" />
+</navigation>
