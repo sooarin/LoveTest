@@ -13,8 +13,6 @@ MBTI Test + Chatting Application
 
 ## Environment
 - Window10 64bit
-- I3-7100U
-- RAM : 12GB
 
 ## 기능 설명
 - 연애 유형 MBTI 검사를 통해 사용자의 MBTI 결과를 보여주고 사용자의 유형과 가장 잘 맞는 유형의 MBTI를 가진
